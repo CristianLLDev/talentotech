@@ -42,9 +42,10 @@ function App() {
       {terremotoData && (
         <div>
           <center><h2>Predicción</h2>
-          <h4>0 "Moderado"</h4>
-          <h4>1 "Fuerte"</h4>
           <h4>2 "leve"</h4>
+          <h4>1 "Moderado"</h4>
+          <h4>0 "Fuerte"</h4>
+          
           <pre>{JSON.stringify(terremotoData, null, 2)}</pre> </center>
         </div>
       )}
