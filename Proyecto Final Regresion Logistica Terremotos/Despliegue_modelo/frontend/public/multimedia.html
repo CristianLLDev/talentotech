@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Mi página multimedia</title>
+      <style>
+        body {
+          background-color: lightblue; /* Color de fondo */
+          background-image: url('fondo.jpeg'); /* Imagen de fondo */
+          background-size: cover; /* Ajusta la imagen para cubrir todo el área */
+          background-repeat: no-repeat; /* Evita que la imagen se repita */
+          background-position: center; /* Centra la imagen */
+        }
+        .image-container {
+         display:inline-flexbox;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 100px;
+         text-align: center;
+         }
+
+         .image-container img {
+         width: 500px;
+         height: 500px;
+         object-fit:fill;
+         border-radius: 5px;
+      
+         }
+
+         .boton {
+             /* Your button styles here */
+         }
+      </style>
+   </head>
+
+<body>
+    <a href="index.html">
+        <center><button>Regresar</button></center>
+    </a>
+            <div class="image-container">
+                <img src="img1.jpg" alt="Image 1">
+                <img src="img2.jpg" alt="Image 2">
+                <img src="img3.jpg" alt="Image 3">
+                <img src="img4.jpg" alt="Image 4">
+               
+                
+            </div>
+    
+
+        
+    
+</body>
+</html>

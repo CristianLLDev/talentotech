@@ -10,7 +10,7 @@ body {
    background-position: center; /* Centra la imagen */
    background-attachment: fixed; /* Fija la imagen al fondo, no se mueve con el scroll */
   }
-  h1 {
+h1 {
     font-family: 'Roboto', sans-serif; /* Usa una fuente moderna */
     font-size: 24px;
     font-weight: bold;
@@ -19,8 +19,8 @@ body {
     letter-spacing: 1px;
     margin-bottom: 2px;
     text-shadow: 1px 1px 4px rgba(10, 217, 44, 0.1); /* Sombra sutil */
-  }
-  h2 {
+}
+h2 {
     font-family: 'Roboto', sans-serif; /* Usa una fuente moderna */
     font-size: 24px;
     font-weight: bold;
@@ -29,8 +29,8 @@ body {
     letter-spacing: 1px;
     margin-bottom: 2px;
     text-shadow: 1px 1px 4px rgba(10, 217, 44, 0.1); /* Sombra sutil */
-  }
-  h4 {
+}
+h4 {
     font-family: 'Roboto', sans-serif; /* Usa una fuente moderna */
     font-size: 14px;
     font-weight: bold;
@@ -39,48 +39,48 @@ body {
     letter-spacing: 1px;
     margin-bottom: 2px;
     text-shadow: 1px 1px 4px rgba(10, 217, 44, 0.1); /* Sombra sutil */
-  }
-  p {
+}
+p {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     color: #ffffff; /* Color claro para buen contraste */
     margin-bottom: 15px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-  }
-  .json-output {
+}
+.json-output {
     background-color: #ff0000;
     padding: 15px;
     border-radius: 8px;
     font-family: 'Courier New', Courier, monospace;
     white-space: pre-wrap;
     word-wrap: break-word;
-  }
-  pre {
+}
+pre {
     background-color: #f4f4f4;
     padding: 10px;
     border-radius: 50px;
     box-shadow: 0 9px 8px rgba(1, 30, 31, 0.983);
     transition: background-color 0.7s ease, transform 0.7s ease;
     width: 65%;
-  }
+ }
   
-  /* Animación al pasar el cursor */
-  pre:hover {
+/* Animación al pasar el cursor */
+pre:hover {
     background-color: #03b9e7;  /* Cambia el color de fondo ligeramente */
     transform: scale(1.11);      /* Agranda un poco el elemento */
-  }
+}
   
-  /* Animación de aparición */
-  @keyframes fadeIn {
+/* Animación de aparición */
+@keyframes fadeIn {
     from {
       opacity: 0;
     }
     to {
       opacity: 1;
     }
-  }
+}
   
-  pre {
+pre {
     animation: fadeIn 1s ease-in-out;  /* Aparece gradualmente */
-  }
+}

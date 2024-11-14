@@ -1,7 +1,5 @@
-// App.js
 import React, { useState } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
 
 function App() {
   const [terremotoData, setTerremotoData] = useState(null);
@@ -16,7 +14,6 @@ function App() {
       sig: 500,
       
     };
-
     setLoading(true);
     try {
       const response = await axios.post("http://localhost:5000/predict", features);
@@ -28,7 +25,6 @@ function App() {
       setLoading(false);
     }
   };
-
   return (
     <div className="App">
      <center> <h1>Regresion Logistica para Clasificacion </h1></center>
@@ -55,5 +51,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
