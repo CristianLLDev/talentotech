@@ -10,7 +10,7 @@ function App() {
     event.preventDefault();
 
     const features = {
-      magnitude: 6.6, 
+      magnitude: 2.3, 
       sig: 500,
       
     };
